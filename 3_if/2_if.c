@@ -7,10 +7,13 @@ int main()
     scanf("%d", &num);
 
     if (num%2 == 0)
+    {
         printf("O número '%d' é par.\n", num);
-
-    if (num%2 == 1)
+    }
+    else
+    {
         printf("O número '%d' é impar.\n", num);
+    }
 
     printf("Tchau!\n");
     return 0;
