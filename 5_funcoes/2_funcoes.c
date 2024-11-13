@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-float imc(float peso, float altura)
-{
-    return peso/(altura*altura);
-}
+float imc(float, float);
 
 int main()
 {
@@ -23,4 +20,10 @@ int main()
 
 
     return 0;
+}
+
+
+float imc(float peso, float altura)
+{
+    return peso/(altura*altura);
 }
