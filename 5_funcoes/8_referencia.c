@@ -9,10 +9,12 @@ void raizes(int x, float *raiz1, float *raiz2)
 
 int main()
 {
-// leia o valor de x, em vez de atribuir 25
-    int x = 25;
+    int x;
     float r1 = 1000.08;
     float r2;
+
+    printf("Digite um valor inteiro: ");
+    scanf ("%d", &x);
 
     raizes(x, &r1, &r2);
 
