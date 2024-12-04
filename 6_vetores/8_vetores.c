@@ -2,8 +2,6 @@
 
 #define TAMANHO 5
 
-// base para primeiro exercício da lista
-
 
 int esta_no_vetor(int valor, int* vetor, int fim)
 {
@@ -16,6 +14,17 @@ int esta_no_vetor(int valor, int* vetor, int fim)
     return flag;
 }
 
+void duplica_vetor(int v[TAMANHO])
+{
+    int i;
+
+    for(i=0; i<TAMANHO; i++)
+    {
+//        v[i]=v[i]*2;
+        *(v+i)=*(v+i)*2;
+    }
+}
+
 int main()
 {
 
@@ -23,20 +32,10 @@ int main()
 
     int i;
 
-    // prenche o vetor até a posição 2
-    for(i=0; i<3; i++)
-    {
-        valores[i]= i+1;
-    }
-    // mostra os valores do vetor
-    for(i=0; i<3; i++)
-    {
-        printf("valores[%d]=%d\n", i, valores[i]);
-    }
 
-    // para as demais posições, só inclui um novo valor se ele for diferente dos
+    // só inclui um novo valor se ele for diferente dos
     // já presentes no vetor
-    for(i=3; i<TAMANHO; i++)
+    for(i=0; i<TAMANHO; i++)
     {
         printf("Digite o valor %d do vetor: ", i);
         scanf("%d", &valores[i]);
@@ -48,6 +47,8 @@ int main()
         }
 
     }
+
+    duplica_vetor(valores);
 
     for(i=0; i<TAMANHO; i++)
     {
