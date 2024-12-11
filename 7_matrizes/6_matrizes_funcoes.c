@@ -6,11 +6,12 @@ Escreva um programa que diz se uma matriz de ordem 4, com valores recebidos pelo
 é um quadrado equilibrado.
 
 
+1 2 2 1
+3 4 4 3
+3 4 4 3
+1 2 2 1
 
-1 2 2 1
-3 4 4 3
-3 4 4 3
-1 2 2 1
+É quadrado equilibrado
 
 Soma da primeira linha: 1 + 2 + 2 + 1 = 6
 Soma da última linha: 1 + 2 + 2 + 1 = 6
