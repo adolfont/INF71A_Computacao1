@@ -5,7 +5,7 @@ int main()
     setlocale(LC_ALL, "Portuguese");
     float n1, n2, n3,
           media;
-    printf("Digite as três notas: ");
+    printf("Digite as três notas, separadas por espaços: ");
     scanf("%f %f %f", &n1, &n2, &n3);
     media = (n1 + n2 + n3) / 3;
     if (media >= 6)
@@ -14,9 +14,10 @@ int main()
         printf("Parabéns!!!\n");
     }
     else{
-        printf("Parabéns!!! Você está em recuperação!\n");
+        printf("Parabéns!!! Você está em recuperação e sua média é %.1f!\n", media);
     }
 
     printf("Tchau!\n");
     return 0;
 }
+
