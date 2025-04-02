@@ -1,5 +1,7 @@
 **Exercício:**  
 
+Nome do exercício: 5_if
+
 _O nome do arquivo deve ser notas.c._
 
 Escreva um programa em C que leia três notas de um aluno e calcule a média aritmética delas. Com base na média, o programa deve exibir a seguinte classificação:  
