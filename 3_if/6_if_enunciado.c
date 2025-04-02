@@ -11,7 +11,7 @@ Com base na média e na frequência, o programa deve exibir a seguinte classific
 
 - **Média maior que 8** e Frequência maior ou igual a 75% → "Aprovado com Distinção"  
 - **Média maior ou igual a 6** ou → "Aprovado Direto"  
-- **Média maior ou igual a 4** → "Vai para Final"  
+- **Média maior ou igual a 4** ou Frequência menor que 75%  → "Vai para Final"  
 - **Média menor que 4** ou Frequência menor ou igual a 50% → "Reprovado Direto"  
 
 O programa deve solicitar ao usuário que insira três notas (valores reais) e, após calcular a média, exibir a mensagem correspondente à situação do aluno.  
