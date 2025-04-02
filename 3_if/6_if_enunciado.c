@@ -9,27 +9,30 @@ Leia também a frequência, um valor inteiro entre 0 e 100.
   
 Com base na média e na frequência, o programa deve exibir a seguinte classificação:  
 
-- **Média maior que 8** e Frequência maior ou igual a 75% → "Aprovado com Distinção"  
-- **Média maior ou igual a 6** ou → "Aprovado Direto"  
-- **Média maior ou igual a 4** ou Frequência menor que 75%  → "Vai para Final"  
-- **Média menor que 4** ou Frequência menor ou igual a 50% → "Reprovado Direto"  
+### Condições de Aprovação:
 
-O programa deve solicitar ao usuário que insira três notas (valores reais) e, após calcular a média, exibir a mensagem correspondente à situação do aluno.  
+1. **Aprovado com Distinção**
+    
+    - Média **\> 8,0** **e** Frequência **≥ 75%**
+        
+2. **Aprovado Direto**
+    
+    - Média **≥ 6,0** **e** Frequência **≥ 75%** **e** não se enquadra em "Aprovado com Distinção" _(ou seja, média ≤ 8,0)_
+        
+3. **Vai para Final**
+    
+    - **Média ≥ 4,0 e < 6,0** **e** Frequência **≥ 75%**  
+        **OU**
+        
+    - **Média ≥ 6,0** **e** Frequência **< 75%** _(caso o aluno tenha média boa mas falta frequência)_  
+        **OU**
+        
+    - **Média ≥ 4,0** **e** Frequência **< 75%** _(mas não se enquadra em "Reprovado Direto")_
+        
+4. **Reprovado Direto**
+    
+    - Média **< 4,0**  
+        **OU**
+        
+    - Frequência **≤ 50%** _(independente da média)_
 
-**Exemplo de Entrada:**  
-```
-7.5 8.2 9.0
-```
-**Exemplo de Saída:**  
-```
-Aprovado com Distinção.
-```
-
-**Exemplo de Entrada:**  
-```
-5.0 6.0 7.0
-```
-**Exemplo de Saída:**  
-```
-Aprovado Direto.
-```
