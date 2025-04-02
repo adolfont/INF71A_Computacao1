@@ -1,5 +1,7 @@
 **Exercício:**  
 
+INCOMPLETO
+
 Nome do exercício: 6_if
 
 _O nome do arquivo deve ser notas_2.c._
