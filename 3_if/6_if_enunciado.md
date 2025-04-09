@@ -4,7 +4,7 @@ Nome do exercício: 6_if
 
 _O nome do arquivo deve ser notas_2.c._
 
-Escreva um programa em C que leia três notas de um aluno e calcule a média aritmética delas. 
+Escreva um programa em C que leia três notas (do tipo 'float') de um aluno e calcule a média aritmética delas. 
 
 Leia também a percentagem de frequência, um valor inteiro entre 0 e 100.
   
