@@ -6,7 +6,7 @@ _O nome do arquivo deve ser notas_2.c._
 
 Escreva um programa em C que leia três notas de um aluno e calcule a média aritmética delas. 
 
-Leia também a frequência, um valor inteiro entre 0 e 100.
+Leia também a percentagem de frequência, um valor inteiro entre 0 e 100.
   
 Com base na média e na frequência, o programa deve exibir a seguinte classificação:  
 
@@ -28,7 +28,7 @@ Com base na média e na frequência, o programa deve exibir a seguinte classific
     - **Média ≥ 6,0** **e** Frequência **< 75%** _(caso o aluno tenha média boa mas falta frequência)_  
         **OU**
         
-    - **Média ≥ 4,0** **e** Frequência **< 75%** _(mas não se enquadra em "Reprovado Direto")_
+    - **Média ≥ 4,0** **e** Frequência **>50% e < 75%** 
         
 4. **Reprovado Direto**
     
