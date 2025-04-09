@@ -32,10 +32,7 @@ Com base na média e na frequência, o programa deve exibir a seguinte classific
         
 4. **Reprovado Direto**
     
-    - Média **< 4,0**  
-        **OU**
-        
-    - Frequência **≤ 50%** _(independente da média)_
+    - Demais casos
   
 ### A mensagem escrita na tela deve ser:
 - O estudante foi (CATEGORIA) pois teve média (MÉDIA) e frequência (FREQUENCIA)%. 
