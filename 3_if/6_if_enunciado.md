@@ -38,5 +38,5 @@ Com base na média e na frequência, o programa deve exibir a seguinte classific
     - Frequência **≤ 50%** _(independente da média)_
   
 ### A mensagem escrita na tela deve ser:
-- O estudante foi (CATEGORIA) pois teve média (MÉDIA) e frequência (FERQUENCIA)%. 
+- O estudante foi (CATEGORIA) pois teve média (MÉDIA) e frequência (FREQUENCIA)%. 
 
