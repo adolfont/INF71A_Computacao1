@@ -9,3 +9,9 @@ Inclua o link para a resposta em <https://forms.gle/JdD97kvGm28LPJZT6>.
 Escreva um programa em C que leia um valor inteiro n. 
 
 Apresente todos os números de 1 a 200 que divididos por n são pares e dão resto igual a 3
+
+## Exemplo
+```
+Digite um valor inteiro n: 15
+18 48 78 108 138 168 198
+```
