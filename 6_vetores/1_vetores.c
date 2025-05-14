@@ -11,12 +11,9 @@ int main(){
   copas[3]=1994;
   copas[4]=2002;
   copas[5]=2026;
-  copas[-1]=-2;
-  copas[-2]=1833;
 
-
-  for(i=-2; i<6; i++){
-    printf("copas[-1]=%d, i=%d  %d\n", copas[-1], i, copas[i]);
+  for(i=0; i<6; i++){
+    printf("copas[%d]= %d\n", i, copas[i]);
   }
 
   return 0;
