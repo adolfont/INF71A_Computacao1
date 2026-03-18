@@ -2,7 +2,7 @@
 
 int soma(int a, int b)
 {
-    return a+b;
+    return (2*a+3*b)/5;
 }
 
 int main()
