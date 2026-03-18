@@ -1,0 +1,5 @@
+var valor: inteiro = 1
+enquanto (valor > 0){
+    valor = inteiro(leia('Digite um número inteiro: '))
+    escreva(valor)
+}

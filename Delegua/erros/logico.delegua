@@ -1,0 +1,6 @@
+var decisao: logico
+decisao = 3 > 2
+escreva(decisao)
+se decisao {
+    escreva('Oi 3')
+}
