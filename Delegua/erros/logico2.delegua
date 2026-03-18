@@ -1,0 +1,23 @@
+var opcao: número
+var condicao: logico
+condicao = verdadeiro
+se (condicao) {
+    escreva('sim')
+}
+condicao = falso
+se (condicao == falso) {
+    escreva('sim')
+}
+opcao = número(leia('Digite um valor de 1 a 4: '))
+escolha (opcao) {
+    caso 1:
+        escreva('Olá Mundo!')
+    caso 2:
+        escreva('Hello, world!')
+    caso 3:
+        escreva('Hola, mundo!')
+    caso 4:
+        escreva('Olá Mundo! Hello, world! Hola, mundo!')
+    padrao:
+        escreva('Opção não válida!')
+}
