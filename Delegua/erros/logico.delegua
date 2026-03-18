@@ -4,3 +4,5 @@ escreva(decisao)
 se decisao {
     escreva('Oi 3')
 }
+var issue = 'https://github.com/DesignLiquido/delegua-web/issues/66'
+escreva(issue)
