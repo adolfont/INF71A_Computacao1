@@ -12,7 +12,7 @@ int main(void) {
   printf("Número de docentes da UTFPR: %d\n", 2435);
   // 334 laboratórios, com 30.838,35 m²;
   printf("Número de laboratórios da UTFPR: %d\n", 334);
-  printf("Espaço ocupado pelos laboratórios da UTFPR: %d m2\n", 30838.35);
+  printf("Espaço ocupado pelos laboratórios da UTFPR: %f m2\n", 30838.35);
 
   printf("\a\t\a\a\a\a");
 
