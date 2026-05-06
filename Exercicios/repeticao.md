@@ -11,3 +11,5 @@ Escreva um programa que sorteia um número entre 1 e 20. O usuário deve adivinh
 
 Escreva a classificação do usuário na tela. 
 
+Caso o usuário não tenha sido classificado como ÓTIMO ou BOM, o programa recomeça.
+
