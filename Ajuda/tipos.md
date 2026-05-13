@@ -1,4 +1,4 @@
-Delégua x C
+# Delégua x C
 
 % \- scanf e printf
 
