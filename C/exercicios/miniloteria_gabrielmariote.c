@@ -5,7 +5,7 @@
 #define NUM_APOSTAS 5
 #define LIMITE_APOSTAS 10
 
-// Autores: Gabriel Mariote e Adolfo Neto
+// Autores: Gabriel Mariote https://github.com/Mariote-kkj/Computa-o_repository/blob/main/loteria2_gabriel.c e Adolfo Neto
 
 int contar_acertos(int sorteados[], int apostas[])
 {
