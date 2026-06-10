@@ -92,6 +92,7 @@ int verifica_se_terminou(char tabuleiro [DIMENSAO][DIMENSAO], char simbolos [3])
 {
     // verifica as linhas
     // simbolo[2]
+    // TODO verificar todas as linhas
     for(int i=0; i<DIMENSAO; i++)
     {
         int satisfaz = 1;
